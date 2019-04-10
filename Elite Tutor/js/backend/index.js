@@ -12,7 +12,7 @@ const login = (box, btn) => {
       btn.textContent = 'SIGN IN';
       return;
     }
-    btn.textContent = 'Redirecting...';
+    btn.textContent = 'REDIRECTING...';
     localStorage.setItem('user', data);
     setTimeout(() => { location.replace('index.html'); }, 5000);
   });
@@ -32,7 +32,7 @@ const register = (box, btn) => {
       btn.textContent = 'SIGN UP';
       return;
     }
-    btn.textContent = 'Redirecting...';
+    btn.textContent = 'REDIRECTING...';
     localStorage.setItem('user', data);
     setTimeout(() => { location.replace('index.html'); }, 5000);
   });
