@@ -72,7 +72,6 @@ body {
     -webkit-transition: all ease 0.4s;
     -moz-transition: all ease 0.4s;
     -ms-transition: all ease 0.4s;
-    transition: all ease 0.4s;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
     -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
     -ms-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
@@ -95,19 +94,6 @@ header.fixed-header~.page-content {
     display: inline-block;
     clear: both;
     width: 100%;
-}
-#logOut{
-    background-color: rgba(0,0,0,0);
-}
-.alert-red{
-    color: #ffffff;
-    line-height: 3rem;
-    background-color: #ff0000;
-}
-.alert-green{
-    color: #ffffff;
-    line-height: 3rem;
-    background-color: #0a640a;
 }
 h1,
 h2,
@@ -231,7 +217,6 @@ h6 {
 }
 .push-content-right.menu-right-open .page {
     margin-left: -280px;
-    transition: all ease 0.6s;
     -webkit-transition: all ease 0.6s;
     -moz-transition: all ease 0.6s;
     -ms-transition: all ease 0.6s;
@@ -244,7 +229,6 @@ h6 {
 }
 .push-content-left.menu-left-open .page {
     margin-left: 280px;
-    transition: all ease 0.6s;
     -webkit-transition: all ease 0.6s;
     -moz-transition: all ease 0.6s;
     -ms-transition: all ease 0.6s;
@@ -414,7 +398,7 @@ h6 {
     padding: 10px 15px;
     font-size: 15px;
     color: #ffffff;
-    vertical-align: middle;
+    vertical-align: middle
 }
 .navbar .navbar-nav li .dropdown-menu a {
     padding-left: 48px;
@@ -439,7 +423,6 @@ header {
     width: 100%;
     height: 50px;
     z-index: 6;
-    transition: all ease 0.4s;
     -webkit-transition: all ease 0.4s;
     -moz-transition: all ease 0.4s;
     -ms-transition: all ease 0.4s;
@@ -2171,7 +2154,6 @@ body .wrapper .page .footer {
     background: rgba(0, 0, 0, 0.2);
 }
 ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
     -webkit-border-radius: 10px;
     border-radius: 10px;

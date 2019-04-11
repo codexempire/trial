@@ -1,0 +1,24 @@
+.alert-red{
+  line-height: 3rem;
+  background-color: #ff0000;
+  color: #ffffff;
+}
+.alert-sm-red{
+  line-height: 1.5rem;
+  background-color: #ff0000;
+  color: #ffffff;
+}
+#logOut{
+  background-color: rgba(0, 0, 0, 0);
+}
+#logo{
+  height: auto;
+}
+.small-loader{
+  width: 15%;
+  height: auto;
+}
+.smaller-loader{
+  width: 10%;
+  height: auto;
+}
